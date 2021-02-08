@@ -4,7 +4,7 @@ for (i=0; i <50; i++) {
     {
       console.log("BOOM BOOM");    
     }
-   else if  (i % 7 == 0)
+   else if  ("7".includes(i))
     {
     console.log("BOOM ");    
     }
