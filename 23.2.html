@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #stopWatch {
+            width: 280px;
+            height: auto;
+            text-align: center;
+            display: block;
+            padding: 5px;
+            margin: 0 auto;
+        }
+
+        #timer,
+        #fulltime {
+            padding: 10px;
+            font-weight: bold;
+            font-family: tahoma;
+            font-size: 30px;
+            display: block;
+            border: 1px solid #eee;
+            text-align: center;
+            color: rgb(231, 154, 167);
+            border: 5px solid rgb(197, 121, 121);
+        }
+
+        button {
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        #fulltime {
+            display: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body onload="show();">
+	Time:<div id="time"></div>
+	<input type="button" value="start" onclick="start();">
+	<input type="button" value="stop" onclick="stop();">
+    
+
+    <script src="./23.2.js"></script>
+</body>
+
+</html>
